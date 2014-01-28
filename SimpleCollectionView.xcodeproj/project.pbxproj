@@ -14,13 +14,13 @@
 		C7AA0A381897EC7100DF8D84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AA0A371897EC7100DF8D84 /* main.m */; };
 		C7AA0A3C1897EC7100DF8D84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AA0A3B1897EC7100DF8D84 /* AppDelegate.m */; };
 		C7AA0A3F1897EC7100DF8D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7AA0A3D1897EC7100DF8D84 /* Main.storyboard */; };
-		C7AA0A421897EC7100DF8D84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AA0A411897EC7100DF8D84 /* ViewController.m */; };
 		C7AA0A441897EC7100DF8D84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7AA0A431897EC7100DF8D84 /* Images.xcassets */; };
 		C7AA0A4B1897EC7200DF8D84 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7AA0A4A1897EC7200DF8D84 /* XCTest.framework */; };
 		C7AA0A4C1897EC7200DF8D84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7AA0A2B1897EC7100DF8D84 /* Foundation.framework */; };
 		C7AA0A4D1897EC7200DF8D84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7AA0A2F1897EC7100DF8D84 /* UIKit.framework */; };
 		C7AA0A551897EC7200DF8D84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7AA0A531897EC7200DF8D84 /* InfoPlist.strings */; };
 		C7AA0A571897EC7200DF8D84 /* SimpleCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AA0A561897EC7200DF8D84 /* SimpleCollectionViewTests.m */; };
+		C7AA0A611897EC9E00DF8D84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AA0A601897EC9E00DF8D84 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,13 +46,13 @@
 		C7AA0A3B1897EC7100DF8D84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C7AA0A3E1897EC7100DF8D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7AA0A401897EC7100DF8D84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C7AA0A411897EC7100DF8D84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C7AA0A431897EC7100DF8D84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C7AA0A491897EC7200DF8D84 /* SimpleCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AA0A4A1897EC7200DF8D84 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C7AA0A521897EC7200DF8D84 /* SimpleCollectionViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleCollectionViewTests-Info.plist"; sourceTree = "<group>"; };
 		C7AA0A541897EC7200DF8D84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7AA0A561897EC7200DF8D84 /* SimpleCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleCollectionViewTests.m; sourceTree = "<group>"; };
+		C7AA0A601897EC9E00DF8D84 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,7 @@
 				C7AA0A3B1897EC7100DF8D84 /* AppDelegate.m */,
 				C7AA0A3D1897EC7100DF8D84 /* Main.storyboard */,
 				C7AA0A401897EC7100DF8D84 /* ViewController.h */,
-				C7AA0A411897EC7100DF8D84 /* ViewController.m */,
+				C7AA0A601897EC9E00DF8D84 /* ViewController.m */,
 				C7AA0A431897EC7100DF8D84 /* Images.xcassets */,
 				C7AA0A321897EC7100DF8D84 /* Supporting Files */,
 			);
@@ -249,7 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7AA0A421897EC7100DF8D84 /* ViewController.m in Sources */,
+				C7AA0A611897EC9E00DF8D84 /* ViewController.m in Sources */,
 				C7AA0A3C1897EC7100DF8D84 /* AppDelegate.m in Sources */,
 				C7AA0A381897EC7100DF8D84 /* main.m in Sources */,
 			);
